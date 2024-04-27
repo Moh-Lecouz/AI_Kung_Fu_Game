@@ -1,3 +1,5 @@
+# Setting up the environment and images preprocessing
+
 class PreprocessAtari(ObservationWrapper):
 
   def __init__(self, env, height = 42, width = 42, crop = lambda img: img, dim_order = 'pytorch', color = False, n_frames = 4):
