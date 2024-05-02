@@ -24,7 +24,7 @@ These can be installed using pip:
 ```bash
 pip install opencv-python numpy torch
 pip install gymnasium
-pip install "gymnasium[atari, accept-rom-license]
+pip install gymnasium[atari, accept-rom-license]
 apt-get install -y swig
 pip install gymnasium[box2d]
 ```
